@@ -13,7 +13,6 @@ jobs:
     - uses: actions/checkout@main
 
     - name: Set up .NET Core
-      uses: actions/checkout@V3
       uses: actions/setup-dotnet@V3
       with:
         dotnet-version: '7.0.x'
